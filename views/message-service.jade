@@ -1,0 +1,8 @@
+h3 Please type in a message below:
+form(action='/newMessage', method='post')
+    input(type='text', name='newMessage' value='newMessage')
+    input(type='submit', value='Submit new message')
+
+h2= title
+h3 Here is the message you typed:
+p= sentMessage
